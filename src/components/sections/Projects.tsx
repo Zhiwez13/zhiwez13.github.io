@@ -4,45 +4,45 @@ import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 export function Projects() {
   const projects = [
     {
-      title: "Quantitative Policy Analyst Intern",
-      period: "June 2024 – Sep 2025",
+      title: "Business Development Intern",
+      period: "March 2025 – September 2025",
+      organization: "KCEX Fintech Limited",
+      description: [
+        "Analyzed daily cryptocurrency market data (trading volume, price movements, liquidity indicators) across 15+ major tokens to support regional expansion analysis.",
+        "Built time-series and regression analyses using historical price and volume data to examine short-term volatility and market trends.",
+        "Conducted competitor benchmarking across major Web3 platforms, comparing product features, fee structures, and user activity metrics.",
+        "Used historical price and volume data and fundamental information to test rule-based trading strategies and evaluate excess return potential relative to market benchmarks."
+      ],
+    },
+    {
+      title: "Quantitative Policy Analyst",
+      period: "June 2024 – September 2025",
       organization: "Municipal Committee Policy Research Office of Dongguan",
       description: [
         "Applied statistical models (regression analysis, time series forecasting) to analyze economic and policy data, identifying key trends that influenced municipal strategies.",
-        "Designed Tableau dashboards to visualize key economic indicators.",
-        "Led a survey-based study on public infrastructure investment, analyzing 2,500+ responses using PCA and clustering techniques."
-      ],
-    },
-    {
-      title: "Economic Research Assistant Intern",
-      period: "June 2023 – Oct 2024",
-      organization: "Municipal Committee Policy Research Office of Dongguan",
-      description: [
-        "Analyzed multi-year economic and fiscal datasets using regression and ARIMA models.",
-        "Cleaned and merged datasets from yearbooks and surveys using Python, R, and Excel.",
-        "Produced charts and dashboards in Tableau and Power BI."
-      ],
-    },
-    {
-      title: "Business Development Intern",
-      period: "March 2025 – Sep 2025",
-      organization: "KCEX Fintech Limited",
-      description: [
-        "Analyzed daily cryptocurrency market data to support regional expansion.",
-        "Built time-series and regression analyses.",
-        "Conducted competitor benchmarking across major Web3 platforms.",
-        "Tested rule-based trading strategies and evaluated return potential."
+        "Designed Tableau dashboards to visualize key economic indicators, presenting findings to city officials and improving data-driven decision-making.",
+        "Led a survey-based study on public infrastructure investment, analyzing 2,500+ responses using principal component analysis (PCA) and clustering techniques to prioritize funding allocations."
       ],
     },
     {
       title: "AI & Web Management Intern",
-      period: "June 2024 – Oct 2024",
+      period: "June 2024 – October 2024",
       organization: "Homes Unlimited LLC",
       description: [
-        "Managed residential property datasets for internal analysis.",
-        "Built Python-based data processing workflows reducing manual handling by 30%.",
-        "Analyzed historical property pricing and listing data.",
-        "Conducted website and customer behavior analysis using Google Analytics and Python."
+        "Consolidated and managed datasets covering several hundred residential property listings, integrating pricing, location, and listing attributes for internal analysis and reporting.",
+        "Built Python-based data processing workflows to automate recurring reports, reducing manual data handling by approximately 30%.",
+        "Analyzed historical property pricing and listing data to identify pricing patterns, seasonality, and variation across property types and locations.",
+        "Conducted website and customer behavior analysis using Google Analytics and Python to support marketing and lead-generation decisions."
+      ],
+    },
+    {
+      title: "Economic Research Assistant Intern",
+      period: "June 2023 – October 2024",
+      organization: "Municipal Committee Policy Research Office of Dongguan",
+      description: [
+        "Analyzed multi-year economic and fiscal datasets covering regional GDP, investment, and public spending indicators using regression and ARIMA models.",
+        "Cleaned and merged datasets from government statistical yearbooks and survey sources, totaling hundreds to thousands of observations, using Python, R, and Excel.",
+        "Produced charts and dashboards in Tableau and Power BI to compare trends across regions and time periods for internal research use."
       ],
     }
   ];
